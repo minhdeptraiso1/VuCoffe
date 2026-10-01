@@ -1,0 +1,21 @@
+# Local package/cache directories outside the application repository
+.pnpm-store/
+ai-skills/
+
+# Common generated and secret files at any depth
+**/node_modules/
+**/.env
+!**/.env.example
+**/.venv/
+**/.tools/
+**/.uv-cache*/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.coverage
+**/dist/
+**/coverage/
+**/playwright-report/
+**/test-results/
+*.log
+
